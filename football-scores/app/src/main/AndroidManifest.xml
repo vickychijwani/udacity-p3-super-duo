@@ -2,9 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="barqsoft.footballscores" >
 
-    <uses-permission
-        android:name="android.permission.INTERNET"
-        android:maxSdkVersion="22" />
+    <!-- FIXED removed unnecessary maxSdkVersion -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:supportsRtl="true"

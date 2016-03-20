@@ -12,6 +12,7 @@
     <string name="premierleague" translatable="false">Premier League</string>
     <string name="primeradivison" translatable="false">Primera Division</string>
     <string name="seriaa" translatable="false">Serie A</string>
+    <string name="unknown_league">Unknown league</string>
     <string name="matchday_text">Match day</string>
     <string name="group_stage_text">Group stages</string>
     <string name="first_knockout_round">First knockout round</string>
@@ -38,4 +39,10 @@
     <string name="cdesc_away_crest">Away crest</string>
     <string name="no_matches_yesterday">No matches yesterday</string>
     <string name="last_match_results">Last match results</string>
+    <string name="matchday_group_stages">Group Stages, Matchday : 6</string>
+    <string name="matchday_first_knockout">First Knockout round</string>
+    <string name="matchday_quarter_final">QuarterFinal</string>
+    <string name="matchday_semi_final">SemiFinal</string>
+    <string name="matchday_final">Final</string>
+    <string name="matchday">Matchday</string>
 </resources>
