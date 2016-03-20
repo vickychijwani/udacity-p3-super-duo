@@ -1,5 +1,8 @@
 package it.jaschke.alexandria.barcode;
 
+// CREDITS: Google Mobile Vision API: Barcode Reader sample
+// LINK: https://github.com/googlesamples/android-vision/tree/825c73c56b5021f17947e2de0950ba47192ce33a/visionSamples/barcode-reader
+
 /*
  * Copyright (C) The Android Open Source Project
  *

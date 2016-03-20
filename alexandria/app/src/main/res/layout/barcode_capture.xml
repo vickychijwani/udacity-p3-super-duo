@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+CREDITS: Google Mobile Vision API: Barcode Reader sample
+LINK: https://github.com/googlesamples/android-vision/tree/825c73c56b5021f17947e2de0950ba47192ce33a/visionSamples/barcode-reader
+-->
 
 <FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
