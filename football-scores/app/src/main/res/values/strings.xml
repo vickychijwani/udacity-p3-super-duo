@@ -36,4 +36,6 @@
 
     <string name="cdesc_home_crest">Home crest</string>
     <string name="cdesc_away_crest">Away crest</string>
+    <string name="no_matches_yesterday">No matches yesterday</string>
+    <string name="last_match_results">Last match results</string>
 </resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/appwidget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:clipToPadding="false"
+    android:background="@color/green13">
+
+    <LinearLayout
+        android:id="@+id/appwidget_details"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:text="@string/last_match_results"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="?android:attr/textColorPrimaryInverse"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/appwidget_home_crest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    tools:src="@drawable/manchester_united"
+                    android:contentDescription="@string/cdesc_home_crest"
+                    />
+
+                <TextView
+                    android:id="@+id/appwidget_home_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"
+                    tools:text="Manchester United FC"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/appwidget_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textColor="?android:attr/textColorPrimaryInverse"
+                tools:text="2 - 1"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/appwidget_away_crest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    tools:src="@drawable/liverpool"
+                    android:contentDescription="@string/cdesc_home_crest"
+                    />
+
+                <TextView
+                    android:id="@+id/appwidget_away_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead.Inverse"
+                    tools:text="Liverpool FC"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/appwidget_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/no_matches_yesterday"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="?android:attr/textColorPrimaryInverse"
+        android:visibility="visible"
+        tools:visibility="gone"
+        />
+
+</FrameLayout>
